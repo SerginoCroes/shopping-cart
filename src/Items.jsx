@@ -28,7 +28,6 @@ function Item({ item, addToCart }) {
 }
 
 export default function Items({ addToCart }) {
-
   const items = useLoaderData()
 
   return (

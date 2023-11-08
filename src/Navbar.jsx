@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
 
 export default function Navbar({cart}) {
-
+  
   return (
     <nav>
       <div className="left">

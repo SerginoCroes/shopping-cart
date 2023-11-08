@@ -1,4 +1,5 @@
 export default function Home() {
+  
   return (
     <div className="home">
       <h2>Welcome to Fake Shop</h2>

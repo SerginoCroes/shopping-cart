@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 function CartItem({ item, changeCart }) {
-
+  
   return (
     <div className="cartbox" >
       <Link to={`../items/${item.id}`}><img src={item.image} alt="" /></Link>
@@ -15,6 +15,7 @@ function CartItem({ item, changeCart }) {
 }
 
 export default function Cart({ cart, changeCart }) {
+
   return (
     <div className="shoppingcart">
       <h2>Shopping cart {Object.values(cart).length < 1 && "is empty!"}</h2>
